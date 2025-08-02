@@ -1,0 +1,54 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #1D1E25;
+}
+
+
+/*tamanhos*/
+.heading-hero { font-size: 60px; font-weight: 700; }
+.heading-xl   { font-size: 48px; font-weight: 700; }
+.heading-lg   { font-size: 36px; font-weight: 600; }
+.heading-md   { font-size: 32px; font-weight: 600; }
+.heading-sm   { font-size: 24px; font-weight: 600; }
+
+.text-lg      { font-size: 20px; }
+.text-md      { font-size: 18px; }
+.text-base    { font-size: 16px; }
+.text-sm      { font-size: 14px; }
+
+/*cores*/
+.text-white    { color: #FFFFFF; }
+.text-primary  { color: #5828E3; }
+.text-dark     { color: #1D1E25; }
+.text-muted    { color: #7E8492; }
+.text-secondary{ color: #475467; }
+.text-light    { color: #EDEDED; }
+
